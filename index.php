@@ -116,10 +116,12 @@ $(function(){
     }else if(index == 1 && pageType == 'previous'){
 
       $('.step2').css({'background-color':'#fff','color':'#0d6efd'});
-      
+
     }else{
+
       step.style.backgroundColor = "#1786b8";
       step.style.color = "white";
+      
     }
     
   }
