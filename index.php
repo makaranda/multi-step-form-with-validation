@@ -95,7 +95,9 @@ $(function(){
   var page_type = 'current';
   
   function navigateTo(index,pageType){
+
     $sections.removeClass('current').eq(index).addClass('current');
+    
     $('.form-navigation .previous').toggle(index>0);
     var atTheEnd = index >= $sections.length - 1;
     $('.form-navigation .next').toggle(!atTheEnd);
