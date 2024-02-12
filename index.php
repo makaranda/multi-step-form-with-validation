@@ -97,7 +97,7 @@ $(function(){
   function navigateTo(index,pageType){
 
     $sections.removeClass('current').eq(index).addClass('current');
-    
+
     $('.form-navigation .previous').toggle(index>0);
     var atTheEnd = index >= $sections.length - 1;
     $('.form-navigation .next').toggle(!atTheEnd);
@@ -118,10 +118,8 @@ $(function(){
       $('.step2').css({'background-color':'#fff','color':'#0d6efd'});
 
     }else{
-
       step.style.backgroundColor = "#1786b8";
       step.style.color = "white";
-      
     }
     
   }
