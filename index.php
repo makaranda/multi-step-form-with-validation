@@ -14,11 +14,9 @@
   .form-section.current{
     display: inline;
   }
-
   .parsley-errors-list{
     color: red;
   }
-
 </style>
 </head>
 <body>
