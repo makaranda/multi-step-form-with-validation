@@ -16,6 +16,7 @@
   .parsley-errors-list{
     color: red;
   }
+  
 </style>
 </head>
 <body>
